@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html data-ng-app="testApp" lang="en-US" data-framework="angularjs">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript" src="./libraries/angular.js"></script>
+<script type="text/javascript" src="./libraries/angular-ui-router.min.js"></script>
+
+<link rel='stylesheet' href="./styles/bootstrap.min.css">
+
+<!-- factory -->
+<script type="text/javascript"  src ="./factory/viewUserFactory.js"></script>
+<!-- routing -->
+<script type="text/javascript"  src ="./route/app.js"></script>
+<!-- controller -->
+<script src="./controllers/viewUserController.js"></script>
+<script type="text/javascript" src="./libraries/ui-bootstrap-tpls.min.js"></script>
+</head>
+<body>
+<h3> TestApp</h3>
+<div class="container-fluid" data-ng-controller="EmployeeUserController">
+	<div class="col-md-6">
+		<div data-ui-view="home"></div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
