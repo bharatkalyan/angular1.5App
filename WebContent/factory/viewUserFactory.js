@@ -1,4 +1,4 @@
-testApp.factory('EmpService', function () {  
+angular.module('testApp').factory('EmpService', function () {  
     return {  
         EmployeesDetailsUrl: './assets/employeeDetails.json'  
     }  
